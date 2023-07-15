@@ -1,0 +1,86 @@
+{
+  "json.validate.enable": false,
+  "json.schemaDownload.enable": true,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorTheme": "Rosé Pine Moon",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.showTabs": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.fontSize": 16,
+  "editor.smoothScrolling": true,
+  "editor.suggestFontSize": 14,
+  "editor.wordWrap": "on",
+  "errorLens.fontStyleItalic": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+  "notebook.showCellStatusBar": "hidden",
+  "editor.cursorBlinking": "smooth",
+  "editor.lineNumbers": "relative",
+  "workbench.panel.defaultLocation": "right",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "projectManager.git.baseFolders": ["$home/workspace"],
+  "vim.foldfix": true,
+  "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.textColor": "white",
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "readme",
+  "zenMode.hideLineNumbers": false,
+
+  "workbench.activityBar.visible": false,
+  "workbench.editor.limit.value": 1,
+  "workbench.editor.limit.perEditorGroup": true,
+  "editor.scrollbar.vertical": "hidden",
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "workbench.editor.limit.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "rust": false,
+    "jsonc": false
+  },
+  "window.zoomLevel": 2
+}

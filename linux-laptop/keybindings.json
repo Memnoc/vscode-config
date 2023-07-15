@@ -1,0 +1,159 @@
+[
+  {
+    "key": "ctrl+shift+f",
+    "command": "fuzzySearch.activeTextEditor"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "fuzzySearch.activeTextEditorWithCurrentSelection"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.replaceInFiles"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "-workbench.action.replaceInFiles"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "git.viewFileHistory"
+  },
+  {
+    "key": "alt+h",
+    "command": "-git.viewFileHistory"
+  },
+  {
+    "key": "ctrl+shift+'",
+    "command": "turboConsoleLog.displayLogMessage"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-turboConsoleLog.displayLogMessage"
+  },
+  {
+    "key": "ctrl+shift+\\",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "ctrl+k ctrl+\\",
+    "command": "-workbench.action.splitEditorRight"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+;",
+    "command": "-breadcrumbs.focus",
+    "when": "breadcrumbsPossible && breadcrumbsVisible"
+  },
+  {
+    "key": "ctrl+shift+;",
+    "command": "markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+k v",
+    "command": "-markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "command": "filesExplorer.copy",
+    "key": "c",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.paste",
+    "key": "p",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "key": "cmd+d",
+    "when": "editorFocus"
+  },
+  {
+    "command": "-extension.vim_cmd+d",
+    "key": "cmd+d",
+    "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
+  }
+]
