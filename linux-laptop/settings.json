@@ -5,6 +5,7 @@
   "workbench.colorTheme": "Rosé Pine Moon",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.showTabs": false,
+  "workbench.editor.revealIfOpen": true,
   "editor.scrollbar.horizontal": "hidden",
   "editor.fontSize": 16,
   "editor.smoothScrolling": true,

@@ -132,6 +132,10 @@
     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   },
   {
+    "key": "ctrl+shift+s",
+    "command": "extension.aceJump"
+  },
+  {
     "command": "filesExplorer.copy",
     "key": "c",
     "when": "filesExplorerFocus && !inputFocus"
