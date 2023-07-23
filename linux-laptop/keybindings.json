@@ -4,10 +4,6 @@
     "command": "fuzzySearch.activeTextEditor"
   },
   {
-    "key": "ctrl+shift+g",
-    "command": "fuzzySearch.activeTextEditorWithCurrentSelection"
-  },
-  {
     "key": "ctrl+shift+r",
     "command": "workbench.action.toggleActivityBarVisibility"
   },

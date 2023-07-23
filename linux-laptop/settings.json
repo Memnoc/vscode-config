@@ -7,7 +7,7 @@
   "workbench.editor.showTabs": false,
   "workbench.editor.revealIfOpen": true,
   "editor.scrollbar.horizontal": "hidden",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.smoothScrolling": true,
   "editor.suggestFontSize": 14,
   "editor.wordWrap": "on",
@@ -22,6 +22,7 @@
   "editor.suggest.insertMode": "replace",
   "editor.minimap.enabled": false,
   "editor.fontLigatures": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
   "notebook.showCellStatusBar": "hidden",
   "editor.cursorBlinking": "smooth",
@@ -59,8 +60,6 @@
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "readme",
   "zenMode.hideLineNumbers": false,
-
-  "workbench.activityBar.visible": false,
   "workbench.editor.limit.value": 1,
   "workbench.editor.limit.perEditorGroup": true,
   "editor.scrollbar.vertical": "hidden",
@@ -81,7 +80,19 @@
     "markdown": false,
     "scminput": false,
     "rust": false,
-    "jsonc": false
+    "jsonc": false,
+    "javascript": false
   },
-  "window.zoomLevel": 2
+  "window.zoomLevel": 2,
+  "terminal.integrated.env.linux": {},
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.activityBar.visible": false,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "errorLens.scrollbarHackEnabled": true,
+  "notebook.breadcrumbs.showCodeCells": false,
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "off"
 }
